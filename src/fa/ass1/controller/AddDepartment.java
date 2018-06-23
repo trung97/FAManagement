@@ -18,7 +18,7 @@ public class AddDepartment extends Server {
 
     @Override
     public void sendResponse(HttpServletResponse resp) {
-          //resq is a object json
+          //resq is a object 
     }
 
     @Override

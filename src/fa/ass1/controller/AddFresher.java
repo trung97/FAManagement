@@ -89,11 +89,11 @@ public class AddFresher extends Server {
         System.out.println(req.getCharacterEncoding());
         System.out.println(fullName);
         code= req.getParameter("code");
-        id= req.getParameter("idNumber");
-        department= req.getParameter("Department");
-        university= req.getParameter("University");
+        id= req.getParameter("id");
+        department= req.getParameter("department");
+        university= req.getParameter("university");
         allQuizPoint= req.getParameter("quizPoint");
-        mockPoint= req.getParameter("projcetPoint");
+        mockPoint= req.getParameter("mockPoint");
         trainerComment= req.getParameter("comment");
     }
 

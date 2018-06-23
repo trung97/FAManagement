@@ -18,7 +18,7 @@ public class DatabaseManagement {
         }
         
         try {
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://207.148.64.133:3306/faass1", "root", "password");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://207.148.64.133:3306/faass1?useUnicode=true&characterEncoding=UTF-8", "tien", "12345678");
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
